@@ -1,0 +1,10 @@
+CoNcAt()
+concat()
+CON%08CAT()
+CoNcAt()
+%0AcOnCat()
+/**//*!12345cOnCat*/
+/*!50000cOnCat*/(/*!*/)
+unhex(hex(concat(table_name)))
+unhex(hex(/*!12345concat*/(table_name)))
+unhex(hex(/*!50000concat*/(table_name)))
