@@ -108,6 +108,8 @@ foreach ($bypassWaf as $bypassWaf){
         echo color('green')."[+] 200 OK\t\t : $bypassWaf";
     }elseif($status_code == 403){
         echo color('yellow')."[-] 403 Forbidden\t : $bypassWaf";
+    }elseif($status_code == 500){
+        echo color('blue')."[-] 500 Internal Server Error\t : $bypassWaf";
     }else{
         echo color('red')."[!] Warning\t\t : error with status code $status_code";
     }
